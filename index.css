@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    outline: 2px solid red;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+    position: relative;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 1px 1px 5px 2px rgba(143, 118, 118, 0.562);
+    border-radius: 20px;
+}
+img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 20px;
+    padding: 10px;
+}
+.description{
+    font-family:  sans-serif;
+    padding: 0px 5px 0px 10px;
+    text-align: center;
+}
+.outter_model{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    opacity: 0;
+    z-index: 1000;
+    /* position: relative; */
+    /* background-color: black; */
+ 
+
+}
+.inner_model{
+    width: 50%;
+    height: 90%;
+    background-color: #874950;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    /* justify-content: center; */
+}
+.inner_model img{
+    width: 80%;
+    height: 70%;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+.icon {
+    position: absolute;
+    top: 40px;
+    right: 350px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.icon i {
+    color: aqua;
+    font-size: 50px;
+    display: inline-block;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.icon:active i {
+    animation: rotate 0.5s ease;
+}
+
+.open{
+    opacity: 1;
+    pointer-events: all;
+}
+.inner_model p{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.inner_model h1{
+    font-size: 30px;
+    color: yellowgreen;
+    padding-top: 20px;
+}
