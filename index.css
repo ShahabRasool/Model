@@ -49,8 +49,7 @@ img{
     pointer-events: none;
     opacity: 0;
     z-index: 1000;
-    /* position: relative; */
-    /* background-color: black; */
+  
  
 
 }
@@ -63,7 +62,7 @@ img{
     align-items: center;
     border-radius: 20px;
     padding: 20px;
-    /* justify-content: center; */
+   
 }
 .inner_model img{
     width: 80%;
@@ -76,7 +75,7 @@ img{
 .icon {
     position: absolute;
     top: 40px;
-    right: 350px;
+    right: 300px;
     z-index: 1000;
     cursor: pointer;
 }
