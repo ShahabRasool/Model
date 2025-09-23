@@ -9,13 +9,21 @@
     margin-left: auto;
     margin-right: auto;
 }
+.mod{
+    text-align: center;
+    padding: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #874950;
+}
 .wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 10px;
     width: 100%;
     position: relative;
-    padding-top: 200px;
+   
 }
 .card{
     display: flex;
