@@ -83,8 +83,8 @@ img{
 }
 .icon {
     position: absolute;
-    top: 40px;
-    right: 500px;
+    top: 70px;
+    right: 495px;
     z-index: 1000;
     cursor: pointer;
 }
