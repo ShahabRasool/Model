@@ -84,7 +84,7 @@ img{
 .icon {
     position: absolute;
     top: 40px;
-    right: 350px;
+    right: 500px;
     z-index: 1000;
     cursor: pointer;
 }
